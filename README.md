@@ -1,2 +1,2 @@
 # js_practice
-In this repo, I practice javascript from begineer to advance.
+A code repo for javaScript series from begineers to Advance
