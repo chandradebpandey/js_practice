@@ -1,0 +1,24 @@
+Lecture  # 1:
+Variables and Data Types
+const = can't be re-assigned a value and can't be declared again  (block scope)
+let = can be re-assigned a value but can't be declared again (block scope)
+var = it can be re-assigned a value and it can also be declared again  (Global scope)
+
+=> Never use var in your code instead of let because of block and functional scope issues.
+# console.table([group of variables you want to show in tabular form])
+
+const 
+    JavaScript const variables must be assigned a value when they are declared
+    Variables defined with const cannot be Redeclared
+    Variables defined with const cannot be Reassigned
+    Variables defined with const have Block Scope
+    Always declare a variable with const when you know that the value should not be changed.
+
+//  Prefer not to use use var because of issue in block scope and functional scope
+
+let
+    Variables declared with let have Block Scope
+    Variables declared with let must be Declared before use
+    Variables declared with let cannot be Redeclared in the same scope
+
+
