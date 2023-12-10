@@ -22,7 +22,7 @@ let
     Variables declared with let cannot be Redeclared in the same scope
 
 
-// Data types of JavaScript
+//**************** Data types of JavaScript *****************
     Primitve Data Types
         String => "" enclosed with double String(single quote also used)
         Number => 2 to power 53
@@ -54,10 +54,48 @@ console.log(typeof null)     // object
 Code Readability should be high
 
 
-//Conversion and Operations
+//************** Conversion ***************
     "33" => 33 easily converted
     "33abc" => NaN
     true => 1; false => 0 
     
     1 => true; 0 => false
     "" => false; "Rahul" => true;
+
+// *************** Operations *************
+
+    console.log(2+2);
+    console.log(2-2);
+    console.log(2*2);
+    console.log(2**3);
+    console.log(2/2);
+    console.log(2%3);
+
+    console.log("1" + 2)     // 12
+    console.log(1 + "2")     // 12
+    console.log("1" + 2 + 2) // 122
+    console.log(1 + 2 + "2") // 32
+
+
+// **************** Comparisons *****************
+
+    Normal Comparisons
+        console.log(2>=2)
+        console.log(3<2)
+        console.log(2==2)
+        console.log(2 == 1)
+        console.log(2 != 1)
+
+        // console.log("2" > 1)  // true
+        // console.log("02" > 1) // true automatically convert the string into number
+
+    
+    // The resasonis that an equality check == and comaprisons > < >= <= work differently
+        Comparisons convert null to a number, treating it as 0
+
+        // console.log(null > 0)
+        // console.log(null == 0)
+        // console.log(null >= 0)
+
+        === strictly check 
+        console.log("2" === 2)
