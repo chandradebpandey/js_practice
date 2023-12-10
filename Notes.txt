@@ -53,3 +53,11 @@ console.log(typeof null)     // object
 
 Code Readability should be high
 
+
+//Conversion and Operations
+    "33" => 33 easily converted
+    "33abc" => NaN
+    true => 1; false => 0 
+    
+    1 => true; 0 => false
+    "" => false; "Rahul" => true;
